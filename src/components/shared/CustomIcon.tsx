@@ -15,6 +15,8 @@ import {
   LinkedinLogo,
   Television,
   TiktokLogo,
+  Drop,
+  Carrot,
 } from '@phosphor-icons/react'
 
 export function CustomIcon({
@@ -53,7 +55,11 @@ export function CustomIcon({
       return <TiktokLogo size={size} weight="duotone" />
     case 'bilibili':
       return <Television size={size} weight="duotone" />
+    case 'liquid':
+      return <Drop size={size} weight="duotone" />
+    case 'food':
+      return <Carrot size={size} weight="duotone" />;
     default:
-      return null
+      return null;
   }
 }

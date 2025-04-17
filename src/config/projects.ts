@@ -20,76 +20,55 @@ export const awardsIntro = "Recognition for academic and professional achievemen
 
 export const awards: Array<ActivityItemType> = [
   {
-    name: 'Outstanding Teacher Award',
+    name: 'The most handsome student',
     description: '',
-    date: '2024',
-    location: 'SCLS, Shanghai',
+    date: '2025',
+    location: 'kbcc, college',
   },
   {
-    name: 'Zhui Ying Award',
+    name: 'Muscle Man',
     description: '',
-    date: '2023',
-    location: 'Qingpu, Shanghai',
+    date: '2025',
+    location: 'Dolphin, gym',
   },
 ]
 
 // Research & Projects
-export const projectHeadLine = "Research & Projects"
-export const projectIntro = "Academic research and technical projects I've worked on."
+export const projectHeadLine = "Current learning"
+export const projectIntro = "I'm currently learning HTML, CSS, and JavaScript."
 
 export const projects: Array<ProjectItemType> = [
   {
-    name: 'Student Final Project Portfolio',
-    description: 'Static website portfolio',
-    link: { href: 'scls-cs.com', label: 'GitHub Cards' },
-    tags: ['Website', 'Next.js', 'TailwindCSS', 'DaisyUI', 'Portfolio']
+    name: 'Full Stack Development',
+    description: 'Angela udemy course',
+    link: { href: 'https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=ST14MT150425G3', label: 'udemy' },
+    tags: ['Website', 'html', 'CSS', 'javascript', 'beginner friendly']
   },
   {
-    name: 'Seeking DNA',
-    description: '2022 SCLS Hackathon',
-    link: { href: 'https://scls-cs.gitbook.io/scls-apcs-lab/lab5-dna', label: 'Hackathon' },
-    tags: ['Hackathon', 'Java']
-  },
-  {
-    name: 'Texas Holdem Poker Judge',
-    description: '2024 SCLS Hackathon',
-    link: { href: 'https://onecompiler.com/challenges/42yf4n5yn/scls-hackathon', label: 'Hackathon' },
-    tags: ['Hackathon']
-  },
-  {
-    name: 'AI Camp Course Development',
-    description: 'Developed a comprehensive AI curriculum for high school students, incorporating real-world projects and startup concepts.',
-    link: { href: 'https://scls-cs.gitbook.io/ai-camp', label: 'View Course' },
-    tags: ['Education', 'AI']
+    name: 'Notion',
+    description: 'From zero to hero',
+    link: { href: 'https://www.udemy.com/course/notion-masterclass/?couponCode=ST14MT150425G3', label: 'udemy' },
+    tags: ['Notion', 'productivity', 'beginner friendly']
   },
 ]
 
 // Hobbies & Volunteer
-export const activitiesHeadLine = "Hobbies & Volunteer"
-export const activitiesIntro = "Personal interests and community contributions."
+export const activitiesHeadLine = "Hobbies"
+export const activitiesIntro = "Personal interests ."
 
 export const activities: Array<ActivityItemType> = [
   {
-    name: 'Python Workshop',
+    name: 'Erercise',
     description:
-      'Teaching basic Python programming concepts to beginners. Covering variables, control flow, and functions.',
-    date: '2024-02-24',
-    location: 'Shanghai',
-    link: 'https://example.com/python-workshop',
+      "Gym can improve a man mentel capacility, stay stronger",
+    date: '2025-04-16',
+    location: 'Brooklyn',
   },
   {
-    name: 'AI Ethics Discussion',
+    name: 'coding',
     description:
-      'A group discussion about the ethical implications of AI development and its impact on society.',
-    date: '2024-03-01',
-    location: 'Shanghai',
-    link: 'https://example.com/ai-ethics',
-  },
-  {
-    name: 'Code Review Session',
-    description:
-      'Helping students improve their coding skills through peer code review and best practices sharing.',
-    date: '2024-03-15',
-    location: 'Shanghai',
+      'My dream is create an app that can solve people probem and become financial freedom',
+    date: '2025-04-16',
+    location: 'Brooklyn',
   },
 ]

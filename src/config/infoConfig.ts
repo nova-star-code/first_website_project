@@ -3,19 +3,17 @@ export * from './education'
 export * from './career'
 
 // personal info
-export const name = 'Derek Hu'
-export const headline = 'Teacher at Shanghai Soong Ching Ling School.'
+export const name = 'Nova lee'
+export const headline = 'Passionate about coding and exercising.'
 export const introduction =
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020."
-export const email = 'tong.hu@scls-sh.org'
-export const githubUsername = 'derekhut'
+  "Hi, I’m Nova Lee, originally from China. I’m passionate about personal growth and living a healthy lifestyle. You’ll often find me at the gym, challenging my limits, or deep into a self-improvement book, exploring new ideas to level up mentally and physically. I believe in constantly evolving and striving to become the best version of myself."
+export const email = 'novaprogrammer8@gmail.com'
+export const githubUsername = 'NOVA-STAR-CODE'
 
 // about page
 export const aboutMeHeadline = 'Who Are You and Why Should I Care?'
 export const aboutParagraphs = [
-  "Coucou Les Amis! My name is Derek Hu. I'm from Hubei and an alumnus of BUPT, UChicago, and Tsinghua. I’ve been teaching Computer Science at SCLS since 2020.",
-  'Currently I am working on a new course called AI Camp, an innovative course where high school students create real-world products and startups while exploring the frontiers of AI.',
-  "I started this blog to share the insights I learn every day. Most blogs focus on education in Artificial Intelligence and general computer science, while others share the life lessons I've learned.",
+  "Hi, I’m Nova Lee, currently diving into HTML, CSS, and JavaScript as I work toward building my very first website and continuously refining my skills. I’m also a huge fan of self-development, especially when it comes to understanding and reshaping habits. I truly believe that by changing our habits, we can transform our lives. Some of the books that have had a big impact on me include Atomic Habits, The Power of Your Subconscious Mind, and Tiny Habits. I’ll be sharing insights and lessons from my learning journey on my blog soon—so stay tuned!"
 ]
 
 // blog
@@ -33,14 +31,9 @@ export type SocialLinkType = {
 
 export const socialLinks: Array<SocialLinkType> = [
   {
-    name: 'Tiktok',
-    icon: 'tiktok',
-    href: 'https://www.tiktok.com/@harvard?lang=en',
-  },
-  {
-    name: 'Bilibili',
-    icon: 'bilibili',
-    href: 'https://space.bilibili.com/349721082',
+    name: 'Instagram',
+    icon: 'instagram',
+    href: 'https://www.instagram.com/dabin596/',
   },
 ]
 
