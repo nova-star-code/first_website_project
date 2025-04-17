@@ -16,8 +16,8 @@ export type EducationItemType = {
       school: '养正小学 ',
       major: 'elementry school',
       logo: 'college',
-      start: '2017',
-      end: '2020'
+      start: '2006',
+      end: '2012'
     },
     {
       school: '端芬中学',
