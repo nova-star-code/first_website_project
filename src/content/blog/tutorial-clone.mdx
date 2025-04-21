@@ -1,0 +1,101 @@
+---
+title: 'tutorial for clone project from github'
+description: 'This is blog that tech you how to clone project and make it your own'
+date: '2025-04-21'
+---
+## 👋 Introduction
+
+Hi, my name is **Nova Lee**. I’m going to show you step-by-step how to **clone a project from GitHub** and make it your own!
+
+It’s straightforward—I made everything crystal clear so you can launch your first website without struggling.
+
+---
+
+## 🧰 STEP 1: Required Tools
+
+### 1. Install Git
+
+Git is used to **pull or push code** to your GitHub account. It’s an essential tool for managing code.
+
+### 2. Install pnpm
+
+`pnpm` is a **package manager** that helps you install JavaScript packages efficiently.
+
+### 3. Create an SSH Key
+
+SSH stands for **Secure Shell**. It allows your computer to **connect to GitHub securely**.
+
+There are two keys: a **private key** and a **public key**. Copy the **public key** and paste it into your GitHub account.
+
+You can test the connection using:
+
+```bash
+ssh -T git@github.com
+```
+
+---
+## 📥 STEP 2: Clone the Project
+
+### 1. Clone the Project and Host It Locally
+
+Go to the GitHub repository: https://github.com/nova-star-code/first_website_project
+
+
+Copy the SSH link, then run the following command in your terminal:
+
+```bash
+git clone <paste-ssh-link-here>
+```
+
+This will download the project to your local storage.
+
+### 2. Enter the Project in Terminal
+Use the following command to navigate into the project folder:
+
+```bash
+cd first_website_project
+```
+
+Then run:
+
+```bash
+pnpm dev
+```
+
+If it's your first time running the project, you'll likely see an error about missing dependencies. To install them, use:
+
+```bash
+pnpm install
+```
+
+Once installation is complete, run the server again:
+
+```bash
+pnpm dev
+```
+
+Open your browser and visit:
+
+```bash
+http://localhost:3000
+```
+
+You should now see your website running locally! 🎉
+
+### 3. Customize your website.
+Using ide to run the project.  go to config directory and change to your information according. For instant: change the name to your it will display your name. 
+
+## Step 3: Upload your personal project to github.
+
+In terminal, typeing the following command
+
+```bash
+git status (checking where you change)
+git add . 
+git -m (reason for change)
+git push origin main (push your local project to github repository)
+```
+
+## Step 4: Host your website on vercel.
+
+connect the github account on vercel, then final step is host it !!!! now everyone can see your website now!!!!!!!!!
